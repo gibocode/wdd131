@@ -77,20 +77,37 @@ main {
     display: flex;
 }
 
-.second-section div:first-child {
+.second-section > div:first-child {
     padding: 60px;
 }
 
-.second-section div:last-child img {
+.second-section > div:first-child div {
+    margin-bottom: 40px;
+}
+
+.second-section .resources ul{
+    padding: 0 20px;
+}
+
+.second-section .resources li {
+    margin-bottom: 10px;
+}
+
+.second-section .resources a {
+    color: inherit;
+    font-weight: 900;
+}
+
+.second-section > div:last-child img {
     width: 100%;
     height: auto;
 }
 
-.second-section div:last-child div {
+.second-section > div:last-child div {
     padding: 50px;
 }
 
-.second-section div:nth-child(2n) {
+.second-section > div:nth-child(2n) {
     background-color: #f1f1f1;
 }
 
