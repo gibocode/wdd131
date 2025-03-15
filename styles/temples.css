@@ -16,7 +16,7 @@ header {
     position: relative;
 }
 
-header div {
+header h1 {
     font-size: 2rem;
     font-weight: 900;
     padding: 10px 15px;
@@ -91,7 +91,7 @@ main {
     text-align: center;
 }
 
-h1 {
+h2 {
     padding: 20px;
 }
 
