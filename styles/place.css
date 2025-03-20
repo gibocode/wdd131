@@ -1,3 +1,9 @@
+:root {
+    --blue: #043aa0;
+    --red: #f51f07;
+    --yellow: #f0c400;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,14 +17,13 @@ body {
 
 header {
     text-align: center;
-    /* background-color: #0053e5; */
     color: #fff;
 }
 
 h1 {
     padding: 10px 0;
     font-family: 'Noto Serif', sans-serif;
-    background-color: #043aa0;
+    background-color: var(--blue);
 }
 
 main {
@@ -49,12 +54,12 @@ section {
 }
 
 .data h2 {
-    background-color: #f0c400;;
+    background-color: var(--yellow);
     margin-bottom: 20px;
 }
 
 .weather h2 {
-    background-color: #f51f07;
+    background-color: var(--red);
 }
 
 .weather > div:first-of-type {
@@ -74,7 +79,6 @@ section {
 svg {
     width: 150px;
     height: 100px;
-    color: #043aa0;
 }
 
 ul {
