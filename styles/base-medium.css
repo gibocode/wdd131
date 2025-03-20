@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+    header {
+        display: block;
+    }
+    h1 > span {
+        display: inline;
+    }
+    #menu {
+        display: none;
+    }
+    nav {
+        display: flex;
+        position: relative;
+        top: 0;
+    }
+    main {
+        margin: 30px auto 0;
+        max-width: calc(100% - 100px);
+        grid-template-columns: 1fr 2fr;
+    }
+    .second-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
