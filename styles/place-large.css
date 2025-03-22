@@ -44,9 +44,11 @@
     }
 
     .weather > div:first-of-type h2::after {
-        content: url('../images/partly-cloudy.svg');
+        content: '⛅';
+        font-size: 30px;
+        margin-left: 10px;
         position: relative;
-        top: -13px;
+        top: -5px;
     }
 
     .weather > div > svg {
