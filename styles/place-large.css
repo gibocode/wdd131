@@ -49,7 +49,7 @@
         top: -13px;
     }
 
-    .weather > div > img {
+    .weather > div > svg {
         display: none;
     }
 }
