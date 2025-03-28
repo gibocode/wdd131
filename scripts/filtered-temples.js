@@ -100,14 +100,14 @@ function filterTemples(field = 'all', value = '', activeLink = null) {
             link.classList.remove('active');
         });
         activeLink.classList.add('active');
+        menu.click();
     }
-    menu.click();
 }
 
 function createTempleCard(temple) {
     const templeCard = document.createElement('figure');
     templeCard.innerHTML = `
-        <img src="${temple.imageUrl}" alt="${temple.templeName}" loading="lazy">
+        <img src="${temple.imageUrl}" alt="${temple.templeName}" width="540" height="338" loading="lazy">
         <figcaption>${temple.templeName}</figcaption>
     `;
     return templeCard;
