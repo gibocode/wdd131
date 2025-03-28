@@ -1,0 +1,38 @@
+@media screen and (min-width: 768px) {
+    .images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 868px) {
+    header {
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav {
+        position: relative;
+        width: auto;
+    }
+    .navigation {
+        flex-direction: row;
+        justify-content: end;
+    }
+    .navigation a, .navigation.open a {
+        display: block;
+        padding: 15px 30px;
+        font-size: 1.5rem;
+    }
+    #menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        max-width: calc(100% - 100px);
+        padding: 20px 20px 40px;
+    }
+    .images {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
