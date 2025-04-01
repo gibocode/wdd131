@@ -59,21 +59,21 @@ const temples = [
     {
         templeName: "Manila Philippines",
         location: "Manila, Philippines",
-        dedicated: "1984, September 25",
+        dedicated: "1984, September, 25",
         area: 26683,
         imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manila-philippines/400x250/manila-philippines-temple-lds-129585-wallpaper.jpg"
     },
     {
         templeName: "Salt Lake",
         location: "Salt Lake City, Utah, United States",
-        dedicated: "1893, April 6",
+        dedicated: "1893, April, 6",
         area: 253015,
         imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/2018/400x250/slctemple7.jpg"
     },
     {
         templeName: "Cedar City Utah",
         location: "Cedar City, Utah, United States",
-        dedicated: "2017, December 10",
+        dedicated: "2017, December, 10",
         area: 33400,
         imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/cedar-city-utah/400x225/Cedar-City-1978603.jpg"
     }
@@ -108,7 +108,12 @@ function createTempleCard(temple) {
     const templeCard = document.createElement('figure');
     templeCard.innerHTML = `
         <img src="${temple.imageUrl}" alt="${temple.templeName}" width="540" height="338" loading="lazy">
-        <figcaption>${temple.templeName}</figcaption>
+        <figcaption>
+            <p class="temple-name">${temple.templeName} Temple</p>
+            <i>${temple.location}</i>
+            <p>Dedicated: ${temple.dedicated}</p>
+            <p>Area: ${temple.area} ft<sup>2</sup></p>
+        </figcaption>
     `;
     return templeCard;
 }

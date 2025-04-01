@@ -109,6 +109,20 @@ h2 {
 img {
     width: 100%;
     height: auto;
+    display: block;
+}
+
+figure {
+    border: 1px solid #d4d4d4;
+}
+
+figcaption {
+    padding: 10px;
+}
+
+.temple-name {
+    font-weight: 900;
+    font-size: 20px;
 }
 
 footer {
