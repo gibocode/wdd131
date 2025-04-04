@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #e7e7e7;
+    background-color: #352526;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    background-color: #291d1d;
+    color: #e7e7e7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #f6ab4a;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    color: #333333;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e7e7e7;
+}
+
+nav ul li a:hover {
+    color: #f6ab4a;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    flex: 1;
+    padding-top: 40px;
+}
+
+main section:nth-child(2) p {
+    padding-bottom: 0;
+}
+
+.color-box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #e7e7e7;
+}
+
+.color-box1 {
+    background-color: #f6ab4a;
+}
+
+.color-box2 {
+    background-color: #291d1d;
+}
+
+.color-box3 {
+    background-color: #352526;
+}
+
+.color-box4 {
+    background-color: #e7e7e7;
+}
+
+.font-noto-serif {
+    font-family: 'Noto Serif';
+}
+
+.font-nunito {
+    font-family: 'Nunito';
+}
+
+.font-sans-serif {
+    font-family: sans-serif;
+}
+
+.wireframe-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.wireframe-container img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.wireframe-container h4 {
+    margin-top: 20px;
+    background-color: #352526;
+}
+
+footer {
+    background-color: #291d1d;
+    color: #e7e7e7;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f6ab4a;
+    font-family: 'Noto Serif', sans-serif;
+}
+
+h2, h3 {
+    color: #f6ab4a;
+    background-color: #352526;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    color: #e7e7e7;
+    padding: 20px;
+}
+
+section ul {
+    position: relative;
+    left: 30px;
+    padding: 20px;
+}
+
+span {
+    background-color: #352526;
+}
