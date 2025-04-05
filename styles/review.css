@@ -1,0 +1,15 @@
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #2a4d6963;
+    text-align: center;
+    padding: 40px;
+}
+
+#review-counter {
+    font-size: 4rem;
+    font-weight: bold;
+}
