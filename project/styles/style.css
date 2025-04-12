@@ -314,3 +314,23 @@ footer {
     display: block;
     text-align: center;
 }
+
+.no-content {
+    background-color: white !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-items: center;
+    padding-top: 200px !important;
+}
+
+.no-content h2 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.no-content img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
