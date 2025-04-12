@@ -132,6 +132,7 @@
 	.gallery-images img {
 		width: 100%;
 		height: auto;
+		aspect-ratio: 75 / 101;
 	}
 
 	.contact {
