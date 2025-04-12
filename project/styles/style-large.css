@@ -1,0 +1,172 @@
+@media screen and (min-width: 768px) {
+	header {
+		background-color: #291d1d56;
+		padding: 20px;
+	}
+
+	img {
+		will-change: transform;
+		transition: transform 0.3s ease;
+	}
+
+	img:hover {
+		transform: scale(1.05);
+	}
+
+	h1 {
+		font-size: 24px;
+	}
+
+	h2 {
+		font-size: 40px;
+		margin-bottom: 20px;
+	}
+
+	.button {
+		padding: 20px 50px;
+		font-size: 25px;
+	}
+
+	.logo {
+		margin-left: 0;
+	}
+
+	.logo img {
+		border: 5px solid #f6ab4a;
+		padding: 7px;
+		width: 50px;
+		margin-right: 0;
+	}
+
+	.menu-icon {
+		display: none;
+	}
+
+	nav {
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		top: 0;
+		background-color: transparent;
+		padding: 0;
+	}
+
+	nav ul {
+		gap: 10px;
+		flex-direction: row;
+	}
+
+	nav ul li {
+		width: auto;
+	}
+
+	nav ul li a {
+		font-size: 20px;
+		white-space: nowrap;
+		display: inline;
+	}
+
+	nav ul li a:hover, a.active {
+		border-radius: 50px;
+	}
+
+	.hero-text {
+		top: 40%;
+		left: 100px;
+	}
+
+	.hero-text h2 {
+		font-size: 50px;
+	}
+
+	.hero-text p {
+		margin-top: 10px;
+	}
+
+	main section:nth-child(2) {
+		background-color: #e7e7e7;
+		padding: 50px 0;
+	}
+
+	.welcome, .contact {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		justify-items: end;
+		max-width: 1600px;
+		margin: 0 auto;
+		padding: 0 50px;
+	}
+
+	.welcome p, .blog p, .contact p {
+		font-size: 18px;
+	}
+
+	.blog h2 {
+		color: #e7e7e7;
+	}
+
+	.blog-text {
+		padding: 0;
+		position: absolute;
+		bottom: 20%;
+		right: 200px;
+		text-align: right;
+		width: 30%;
+	}
+
+	.gallery {
+		padding: 100px;
+	}
+
+	.gallery-images {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		gap: 10px;
+		justify-items: center;
+		height: 410px;
+		overflow: hidden;
+	}
+
+	.gallery-images img {
+		width: 100%;
+	}
+
+	.contact {
+		padding: 50px;
+	}
+
+	main section:last-child {
+		display: grid;
+		grid-template-columns: 1fr 1fr 2fr;
+		padding: 70px 150px;
+	}
+
+	.sitemap a {
+		font-size: 16px;
+	}
+
+	.social a span {
+		font-size: 20px;
+	}
+
+	.newsletter p {
+		display: block;
+	}
+
+	.newsletter button {
+		float: right;
+		width: auto;
+	}
+
+	footer {
+		font-size: 16px;
+	}
+
+	.hero-text .button, .blog-text .button, .contact-text .button {
+		margin-top: 40px;
+		display: inline-block;
+		justify-self: right;
+	}
+}
