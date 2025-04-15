@@ -25,5 +25,5 @@ const captions = [
 const imageCaptions = document.querySelectorAll('.gallery-text-overlay');
 
 imageCaptions.forEach(function(imageCaption, index) {
-    imageCaption.textContent = captions[index];
+    imageCaption.textContent = `${captions[index]}`;
 });
