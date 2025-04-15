@@ -174,7 +174,7 @@
 		padding: 40px;
 	}
 
-	.about-page section:nth-of-type(5) div div {
+	.about-page section:nth-of-type(5) > div > div {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		gap: 10px;
