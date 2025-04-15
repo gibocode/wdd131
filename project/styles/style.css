@@ -334,7 +334,7 @@ footer {
     display: flex !important;
     flex-direction: column;
     justify-items: center;
-    padding-top: 200px !important;
+    margin: 200px 40px 100px;
 }
 
 .no-content h2 {
@@ -369,7 +369,7 @@ footer {
     color: #f6ab4a;
 }
 
-.about-page .filler {
+.filler {
     height: 90px;
     background-color: #291d1dc4;
 }
@@ -450,4 +450,30 @@ footer {
 .about-page p {
     font-size: 20px;
     padding: 20px 0;
+}
+
+.subscription-page > section:not(.footer-nav) {
+    padding-top: 120px;
+    background-color: white !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-items: center;
+    margin: 0 40px 50px;
+}
+
+.subscription-page > section:not(.footer-nav) > h2 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.subscription-page #subscription-counter {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subscription-page > section:not(.footer-nav) > img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
 }
